@@ -1,8 +1,13 @@
 {
   "name": "blank",
   "version": "0.0.3",
-  "module": "src/index.js",
+  "module": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "bun dist/index.js"
+  },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "typescript": "latest"
   }
 }

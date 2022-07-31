@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
     "lib": ["ESNext"],
-    "module": "esnext",
-    "target": "esnext",
+    "module": "CommonJS",
+    "target": "ESNext",
+    "outDir": "dist/",
     // "bun-types" is the important part
     "types": ["bun-types"]
   }

@@ -1,0 +1,4 @@
+dist/
+*.lockb
+**/.DS_Store
+node_modules
